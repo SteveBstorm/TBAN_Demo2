@@ -1,0 +1,15 @@
+<p>demo2 works!</p>
+<button (click)="ajout()" nbButton status="primary">Ajouter</button> <br />
+<button (click)="login()" nbButton status="primary">Connexion api</button>
+<ul *ngIf="listBiere">
+  <li *ngFor="let b of listBiere">
+    {{b.name}}
+  </li>
+</ul>
+
+<hr />
+<ul *ngIf="listUser">
+  <li *ngFor="let b of listUser">
+    {{b.email}}
+  </li>
+</ul>

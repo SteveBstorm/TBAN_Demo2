@@ -1,0 +1,19 @@
+<nb-layout>
+
+  <nb-layout-header fixed>
+  <h3>Démo Observable - HttpClient <label *ngIf="isConnected">Bonjour</label></h3>
+  </nb-layout-header>
+
+  <nb-sidebar>
+    <app-nav></app-nav>
+  </nb-sidebar>
+
+  <nb-layout-column>
+    <router-outlet></router-outlet>
+  </nb-layout-column>
+
+  <nb-layout-footer fixed>
+  &copy; Analyste.Net 2022
+  </nb-layout-footer>
+
+</nb-layout>
